@@ -13,7 +13,7 @@ Installation
 > - copy extension files and folder as you generally do.
 > - Please copy following code into your header.phtml for showing **Mic** icon next to your search bar.
 
-`<?php echo $this->getChildHtml('voice-search'); ?>`
+`<?php echo $this->getChildHtml('voice.search'); ?>`
 
 ----------
 
