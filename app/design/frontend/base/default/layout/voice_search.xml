@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+    <default>
+        <reference name="head">
+            <action method="addJs"><script>voice_search/voice-search.js</script><params>data-group="jquery"</params></action>
+            <action method="addCss"><stylesheet>voicesearch/css/voice_search.css</stylesheet></action>
+        </reference>
+        <reference name="header">
+            <block type="core/template" name="voice.search" after="top.search" template="voicesearch/voice-search.phtml"/>
+        </reference>
+    </default>
+</layout>

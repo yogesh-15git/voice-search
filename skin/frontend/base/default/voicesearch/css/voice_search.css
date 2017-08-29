@@ -1,0 +1,14 @@
+.mic-activated {
+    color: #ff1503;
+}
+
+.voice-search-button {
+    background: none;
+    border: none;
+    color: #676460;
+    cursor: pointer;
+}
+
+.voice-search-button i {
+    font-size: 30px;
+}

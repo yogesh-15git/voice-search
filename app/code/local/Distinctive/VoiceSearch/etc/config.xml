@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Distinctive_VoiceSearch>
+            <version>0.1.0</version>
+        </Distinctive_VoiceSearch>
+    </modules>
+    <frontend>
+        <layout>
+            <updates>
+                <distinctive_voicesearch>
+                    <file>voice_search.xml</file>
+                </distinctive_voicesearch>
+            </updates>
+        </layout>
+    </frontend>
+    <global>
+        <helpers>
+            <voicesearch>
+                <class>Distinctive_VoiceSearch_Helper</class>
+            </voicesearch>
+        </helpers>
+    </global>
+    <default>
+        <voice_search>
+            <general>
+                <active>1</active>
+            </general>
+        </voice_search>
+    </default>
+</config>
